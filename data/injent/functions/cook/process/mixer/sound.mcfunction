@@ -1,0 +1,1 @@
+execute positioned as @s run playsound minecraft:item.axe.strip block @a ~ ~ ~ 0.5 1.75 1

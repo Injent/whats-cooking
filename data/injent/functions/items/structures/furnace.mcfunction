@@ -1,0 +1,1 @@
+give @p armor_stand{display:{Name:'{"text":"Furnace","italic":false}'},Enchantments:[{}],EntityTag:{NoGravity:1b,Tags:["i_furniture","i_furnace"]}} 1

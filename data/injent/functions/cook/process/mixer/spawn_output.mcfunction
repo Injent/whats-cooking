@@ -1,0 +1,1 @@
+execute if entity @s[nbt={data:{input:[egg,wheat,empty]}}] run loot spawn ~ ~1 ~ loot entities/chicken

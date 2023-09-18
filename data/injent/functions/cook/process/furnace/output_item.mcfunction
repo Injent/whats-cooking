@@ -1,0 +1,1 @@
+item replace entity @s container.0 with minecraft:paper{Bread:1b,display:{Name:'{"translate":"item.minecraft.bread","italic":false}'}}
