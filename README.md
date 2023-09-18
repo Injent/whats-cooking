@@ -1,6 +1,16 @@
 # Whats Cooking
 Competetive Minecraft Minigame (Cafe Simulator)
 
+## Project Structure
+
+### Testing and editing
+- Give a furnace ```/function injent:items/structures/furnace```
+- Give a mixer ```/function injent:items/structures/mixer```
+
+### Special Tags
+- Apply the ```CanMix:1b``` tag to any item to be able to put it in the mixer by right-clicking on it.
+- Apply the ```CanFry:1b``` tag to any item to be able to use as ingredient in furnace.
+
 ## Contribution Rules
 
 ### Naming
