@@ -12,23 +12,24 @@ Competetive Minecraft Minigame (Cafe Simulator)
 - Apply the ```CanFry:1b``` tag to any item to be able to use as ingredient in furnace.
 
 ### Recipes Editing
-- All furnace recipes declared in injent:cook/process/furnace/output
-- All mixer recipes declared in injent:cook/process/mixer/spawn_output
+- All furnace recipes declared in `injent:cook/process/furnace/output_item`
+- All mixer recipes declared in `injent:cook/process/mixer/spawn_output`
 
 ## Contribution Rules
 
 ### Naming
 - Use snake case in tag names, scoreboards, datapack files together with a prefix consisting of 1 of any letter not used in the created project.
 
-  Example: ```tag=first_used```
+  Example: `tag=first_used`
 - Use camel case in writing nbt tags.
 
-  Example: ```nbt={ItemCost:12b,Meta:"something"}```
+  Example: `nbt={ItemCost:12b,Meta:"something"}`
 - Write names clearly, without abbreviations, so that they reflect the meaning.
-
-  Good example: ```a_was_interacted```
+  If you want to add scoreboard which represents interaction count you should follow this example
   
-  Bad example: ```a_int```
+  Good example: `a_was_interacted`
+  
+  Bad example: `a_int`
 - It is allowed to use inaccurate name wording if it is within one function and serves as an identifier.
 
   Example:
