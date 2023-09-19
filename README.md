@@ -11,6 +11,10 @@ Competetive Minecraft Minigame (Cafe Simulator)
 - Apply the ```CanMix:1b``` tag to any item to be able to put it in the mixer by right-clicking on it.
 - Apply the ```CanFry:1b``` tag to any item to be able to use as ingredient in furnace.
 
+### Recipes Editing
+- All furnace recipes declared in injent:cook/process/furnace/output
+- All mixer recipes declared in injent:cook/process/mixer/spawn_output
+
 ## Contribution Rules
 
 ### Naming
