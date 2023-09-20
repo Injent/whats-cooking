@@ -1,0 +1,2 @@
+data modify entity @e[tag=i_temp2,limit=1] data.input append from entity @s item.tag.type
+execute if entity @s[nbt={item:{id:"minecraft:air"}}] run data modify entity @e[tag=i_temp2,limit=1] data.input append value Empty
