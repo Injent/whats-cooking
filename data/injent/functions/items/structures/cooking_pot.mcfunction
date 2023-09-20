@@ -1,0 +1,1 @@
+give @p armor_stand{display:{Name:'{"text":"Cooking Pot","italic":false}'},Enchantments:[{}],EntityTag:{NoGravity:1b,Tags:["i_furniture_placer","i_cooking_pot"]}} 1

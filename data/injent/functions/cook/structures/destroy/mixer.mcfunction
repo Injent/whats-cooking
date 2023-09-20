@@ -1,4 +1,4 @@
-kill @e[tag=i_mixer_design,sort=nearest,limit=6,distance=..2]
-kill @e[tag=i_mixer_lever,sort=nearest,distance=..3,limit=1]
+tag @s add i_id_tag
+execute as @e[tag=i_mixer_part] if score @s i_id = @e[tag=i_id_tag,limit=1] i_id run kill @s
 kill @s
 setblock ~ ~2 ~ air replace
