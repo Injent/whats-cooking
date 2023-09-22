@@ -19,7 +19,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Flour <code>minecraft:candle{type:"Flour",CustomModelData:1}</code></li>
   <li>Apple <code>minecraft:paper{type:"Apple",CanMix:1b,CustomModelData:1}</code></li> 
   <li>Meat <code>minecraft:white_candle{type:"Meat",CustomModelData:1}</code></li>
-  <li>Chicken <code>minecraft:paper{type:"Chicken",CanBoil:1b,CustomModelData:2}</code></li>
+  <li>Chicken <code>minecraft:paper{type:"Chicken",CanBoil:1b,CanFry:1b,CustomModelData:2}</code></li>
   <li>Bacon <code>minecraft:light_gray_candle{type:"Bacon",CanFry:1b,CustomModelData:1}</code></li>
   <li>Beef Patty <code>minecraft:gray_candle{type:"BeefPatty",CustomModelData:1}</code></li>
   <li>Lettuce <code>minecraft:paper{type:"Lettuce",CustomModelData:3}</code></li>
