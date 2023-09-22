@@ -6,6 +6,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
 ### Testing and editing
 - Give a furnace `/function injent:items/structures/furnace`
 - Give a mixer `/function injent:items/structures/mixer`
+- Give a soup cooker `/function injent:items/structures/cooking_pot`
 
 ### Special Tags
 - Apply the `CanMix:1b` tag to any item to be able to put it in the mixer by right-clicking on it.
@@ -105,3 +106,6 @@ Competetive Minecraft Minigame (Cafe Simulator)
 - Use setblock/fill modes to optimize block placement.
 
   > Example: ```fill ~10 ~10 ~10 ~-10 ~-10 ~-10 minecraft:stone replace```
+
+- Create lambda functions when it needs to execute two or more commands on specific entity
+  > Example: ```execute as @e[tag=a_entity,limit=1] run function namespace:this_func_lambda0```
