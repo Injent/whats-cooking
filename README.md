@@ -53,7 +53,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Pasta with Meatballs <code>minecraft:paper{type:"PastaWithMeetballs",CustomModelData:22}</code></li>
   <li>Salad <code>minecraft:paper{type:"Salad",CustomModelData:23}</code></li>
   <li>Stuffed Potato <code>minecraft:paper{type:"StuffedPotato",CustomModelData:24}</code></li>
-  <li>Tomato Sauce <code>minecraft:paper{type:"TomatoSauce",CustomModelData:25}</code></li>
+  <li>Tomato Sauce <code>minecraft:paper{type:"TomatoSauce",CanBoil:1b,CustomModelData:25}</code></li>
   <li>Apple Pie <code>minecraft:paper{type:"ApplePie",CustomModelData:26}</code></li>
   <li>Pancakes with Jam <code>minecraft:paper{type:"Pancakes",CustomModelData:27}</code></li>
   <li>Chicken Pie <code>minecraft:paper{type:"ChickenPie",CustomModelData:28}</code></li>
