@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.bread_dough\",\"italic\":false}'},type:\"BreadDough\",CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

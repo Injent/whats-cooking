@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.apple\",\"italic\":false}'},type:\"Apple\",CanMix:1b,CustomModelData:101}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

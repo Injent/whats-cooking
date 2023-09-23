@@ -1,5 +1,6 @@
 # if structure has work then cancel taking item
 execute if entity @e[tag=i_current_interaction,limit=1,tag=i_work] run return 0
+execute unless entity @s[nbt={SelectedItem:{id:"minecraft:water_bucket"}}] positioned as @e[tag=i_current_interaction,limit=1] if block ~ ~ ~ cauldron run return 0
 
 #checks if item in player hand can be mixed else cancels operation
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:water_bucket"}}] positioned as @e[tag=i_current_interaction,limit=1] run function injent:cook/process/cooking_pot/fill_water

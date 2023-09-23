@@ -1,9 +1,10 @@
 execute if entity @e[type=marker,tag=i_cooking_pot,sort=nearest,limit=1,distance=..0.5] run return 0
 setblock ~ ~ ~ cauldron replace
 
-$summon marker ~ ~0.5 ~ {Tags:["i_furniture","i_cooking_pot","$(rotation)","i_temp0"]}
+$summon marker ~ ~0.5 ~ {Tags:["i_furniture","i_cooking_pot","i_$(rotation)","i_temp0"]}
 execute as @e[tag=i_temp0,limit=1] run function injent:cook/structures/cooking_pot_lambda0
 
+$setblock ^ ^ ^1 crimson_wall_sign[facing=$(rotation)]{front_text:{has_glowing_text:1b,messages:['{"text":""}','{"text":"OFF","color":"red","clickEvent":{"action":"run_command","value":"execute positioned ^ ^ ^-1 as @e[tag=i_cooking_pot_hitbox,limit=1,dx=0,dy=0,dz=0] run function injent:cook/process/cooking_pot/turn_on"}}','{"text":""}','{"text":""}']}} replace
 summon block_display ~-0.5 ~ ~-0.5 {Tags:["i_cooking_pot_design","i_temp1","i_cooking_pot_input"],Passengers:[{id:"minecraft:item_display",Tags:["i_cooking_pot_design","i_item_0","i_item","i_temp1"],item:{id:"minecraft:air",Count:1},item_display:"none",transformation:[0.5000f,0.0000f,0.0000f,0.3125f,0.0000f,0.0500f,0.4975f,0.7500f,0.0000f,-0.4975f,0.0500f,0.3125f,0.0000f,0.0000f,0.0000f,1.0000f]},{id:"minecraft:item_display",Tags:["i_cooking_pot_design","i_item_1","i_item","i_temp1"],item:{id:"minecraft:air",Count:1},item_display:"none",transformation:[0.4976f,0.0000f,0.0485f,0.3750f,-0.0485f,0.0000f,0.4976f,0.7500f,0.0000f,-0.5000f,0.0000f,0.6250f,0.0000f,0.0000f,0.0000f,1.0000f]},{id:"minecraft:item_display",Tags:["i_cooking_pot_design","i_item_2","i_item","i_temp1"],item:{id:"minecraft:air",Count:1},item_display:"none",transformation:[0.4996f,-0.0000f,-0.0187f,0.6595f,0.0187f,0.0000f,0.4996f,0.7500f,-0.0000f,-0.5000f,0.0000f,0.3750f,0.0000f,0.0000f,0.0000f,1.0000f]}]}
 execute align xyz run summon interaction ~0.5 ~0.30 ~0.5 {width:1.025f,height:0.75f,Tags:["i_cooking_pot_hitbox","i_cooking_pot_design","i_temp1"]}
 

@@ -1,1 +1,1 @@
-playsound minecraft:block.bubble_column.bubble_pop block @a ~ ~ ~ 1 1 1
+playsound injent:block.pot.boiling master @a ~ ~ ~ 1 1 1

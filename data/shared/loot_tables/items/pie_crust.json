@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.pie_crust\",\"italic\":false}'},type:\"PieCrust\",CustomModelData:108}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

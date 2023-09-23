@@ -1,1 +1,2 @@
-item replace entity @s[nbt={Item:{tag:{type:"Dough"}}}] container.0 with minecraft:paper{type:"Bread",display:{Name:'{"translate":"item.minecraft.bread","italic":false}'}}
+execute if entity @s[nbt={Item:{tag:{type:"Chicken"}}}] run function injent:cook/process/furnace/output_item_lambda0 {"loot":"cooked_chicken"}
+execute if entity @s[nbt={Item:{tag:{type:"BreadDough"}}}] run function injent:cook/process/furnace/output_item_lambda0 {"loot":"bread"}

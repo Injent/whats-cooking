@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.grilled_fish\",\"italic\":false}'},type:\"GrilledFish\",CustomModelData:215}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

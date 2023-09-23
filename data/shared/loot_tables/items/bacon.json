@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.bacon\",\"italic\":false}'},type:\"Bacon\",CanFry:1b,CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

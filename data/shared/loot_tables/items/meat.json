@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.meat\",\"italic\":false}'},type:\"Meat\",CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

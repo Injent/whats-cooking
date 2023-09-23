@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.custom.chicken\",\"italic\":false}'},type:\"Chicken\",CanBoil:1b,CanFry:1b,CustomModelData:103}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
