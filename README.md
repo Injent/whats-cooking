@@ -8,6 +8,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
 - Give a mixer `/function injent:items/structures/mixer`
 - Give a soup cooker `/function injent:items/structures/cooking_pot`
 - Give a barrel `/function injent:items/structures/barrel`
+- Give a custom food `/loot give @s loot shared:items/[food name]`
 
 ### Special Tags
 - Apply the `CanMix:1b` tag to any item to be able to put it in the mixer by right-clicking on it.
