@@ -19,13 +19,13 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Apple <code>minecraft:paper{type:"Apple",CanMix:1b,CustomModelData:101}</code></li> 
   <li>Bacon <code>minecraft:light_gray_candle{type:"Bacon",CanFry:1b,CustomModelData:1}</code></li>
   <li>Beef Patty <code>minecraft:gray_candle{type:"BeefPatty",CustomModelData:1}</code></li>
-  <li>Bread Dough <code>minecraft:yellow_candle{type:"BreadDough",CanFry:1b,CustomModelData:1}</code></li>
-  <li>Carrot <code>minecraft:paper{type:"Carrot",CanBoil:1b,CustomModelData:102}</code></li>
+  <li>Bread Dough <code>minecraft:yellow_candle{type:"BreadDough",CanFry:1b,CanBake:1b,CustomModelData:1}</code></li>
+  <li>Carrot <code>minecraft:paper{type:"Carrot",CanBoil:1b,CanMix:1b,CustomModelData:102}</code></li>
   <li>Cooked Bacon <code>minecraft:paper{type:"CookedBacon",CustomModelData:113}</code></li>
   <li>Chicken <code>minecraft:paper{type:"Chicken",CanBoil:1b,CanFry:1b,CustomModelData:103}</code></li>
-  <li>Egg <code>minecraft:paper{type:"Egg",CanFry:1b,CustomModelData:104}</code></li>
+  <li>Egg <code>minecraft:paper{type:"Egg",CanMix:1b,CanFry:1b,CustomModelData:104}</code></li>
   <li>Fish <code>minecraft:paper{type:"Fish",CanFry:1b,CanBoil:1b,CustomModelData:105}</code></li>
-  <li>Flour <code>minecraft:candle{type:"Flour",CustomModelData:1}</code></li>
+  <li>Flour <code>minecraft:candle{type:"Flour",CanMix:1b,CustomModelData:1}</code></li>
   <li>Lettuce <code>minecraft:paper{type:"Lettuce",CustomModelData:106}</code></li>
   <li>Meat <code>minecraft:white_candle{type:"Meat",CustomModelData:1}</code></li>
   <li>Minced Beef <code>minecraft:black_candle{type:"MincedBeef",CanFry:1b,CustomModelData:1}</code></li>
@@ -33,8 +33,8 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Pie Crust <code>minecraft:paper{type:"PieCrust",CustomModelData:108}</code></li>
   <li>Potato <code>minecraft:orange_candle{type:"Potato",CanBoil:1b,CanFry:1b,CustomModelData:1}</code></li>
   <li>Raw Pasta <code>minecraft:red_candle{type:"RawPasta",CanBoil:1b,CustomModelData:1}</code></li>
-  <li>Raw Pie Crust <code>minecraft:brown_candle{type:"RawPieCrust",CanFry:1b,CustomModelData:1}</code></li>
-  <li>Sugar <code>minecraft:paper{type:"Berries",CustomModelData:109}</code></li>
+  <li>Raw Pie Crust <code>minecraft:brown_candle{type:"RawPieCrust",CanFry:1b,CanBake:1b,CustomModelData:1}</code></li>
+  <li>Sugar <code>minecraft:paper{type:"Berries",CanMix:1b,CustomModelData:109}</code></li>
   <li>Berries <code>minecraft:paper{type:"Berries",CustomModelData:110}</code></li>
   <li>Tomato <code>minecraft:paper{type:"Tomato",CustomModelData:111}</code></li>
   <li>Dough <code>minecraft:paper{type:"Dough",CustomModelData:112}</code></li>
