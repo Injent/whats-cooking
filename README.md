@@ -7,11 +7,13 @@ Competetive Minecraft Minigame (Cafe Simulator)
 - Give a furnace `/function injent:items/structures/furnace`
 - Give a mixer `/function injent:items/structures/mixer`
 - Give a soup cooker `/function injent:items/structures/cooking_pot`
+- Give a barrel `/function injent:items/structures/barrel`
 
 ### Special Tags
 - Apply the `CanMix:1b` tag to any item to be able to put it in the mixer by right-clicking on it.
-- Apply the `CanFry:1b` tag to any item to be able to use as ingredient in furnace.
+- Apply the `CanFry:1b` tag to any item to be able to use as ingredient in skillet.
 - Apply the `CanBoil:1b` tag to any item to be able to put it in the cooking pot.
+- Apply the `CanBake:1b` tag to any item to be able to put it in the furncace.
 
 ### Item List
 #### Ingredients
@@ -68,7 +70,8 @@ Competetive Minecraft Minigame (Cafe Simulator)
 </ol>
 
 ### Recipes Editing
-- All furnace recipes declared in [`injent:cook/process/furnace/output_item`](https://github.com/Injent/whats-cooking/blob/main/data/injent/functions/cook/process/furnace/output_item.mcfunction)
+- All skillet recipes declared in [`injent:cook/process/furnace/output_item`](https://github.com/Injent/whats-cooking/blob/main/data/injent/functions/cook/process/furnace/output_item.mcfunction)
+- All furnace recipes declared in [`injent:cook/process/furnace/output_item_baking`](https://github.com/Injent/whats-cooking/blob/main/data/injent/functions/cook/process/furnace/output_item_baking.mcfunction)
 - All mixer recipes declared in [`injent:cook/process/mixer/output_item`](https://github.com/Injent/whats-cooking/blob/main/data/injent/functions/cook/process/mixer/output_item.mcfunction)
 - All soup cooker recipes declared in [`injent:cook/process/cooking_pot/output_item`](https://github.com/Injent/whats-cooking/blob/main/data/injent/functions/cook/process/cooking_pot/output_item.mcfunction)
 
