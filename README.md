@@ -30,7 +30,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Fish <code>minecraft:paper{type:"Fish",CanFry:1b,CanBoil:1b,CustomModelData:105}</code></li>
   <li>Flour <code>minecraft:candle{type:"Flour",CanMix:1b,CustomModelData:1}</code></li>
   <li>Lettuce <code>minecraft:paper{type:"Lettuce",CustomModelData:106}</code></li>
-  <li>Meat <code>minecraft:white_candle{type:"Meat",CustomModelData:1}</code></li>
+  <li>Raw Meat <code>minecraft:white_candle{type:"Meat",CustomModelData:1}</code></li>
   <li>Minced Beef <code>minecraft:black_candle{type:"MincedBeef",CanFry:1b,CustomModelData:1}</code></li>
   <li>Onion <code>minecraft:paper{type:"Onion",CanBoil:1b,CustomModelData:107}</code></li>
   <li>Pie Crust <code>minecraft:paper{type:"PieCrust",CustomModelData:108}</code></li>
@@ -41,6 +41,10 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Berries <code>minecraft:paper{type:"Berries",CustomModelData:110}</code></li>
   <li>Tomato <code>minecraft:paper{type:"Tomato",CustomModelData:111}</code></li>
   <li>Dough <code>minecraft:paper{type:"Dough",CustomModelData:112}</code></li>
+  <li>Rice <code>minecraft:paper{type:"Rice",CustomModelData:113}</code></li>
+  <li>Cocoa Powder <code>minecraft:paper{type:"CocoaPowder",CanMix:1b,CustomModelData:114}</code></li>
+  <li>Milk Bottle <code>minecraft:paper{type:"MilkBottle",CanMix:1b,CustomModelData:115}</code></li>
+  <li>Nori <code>minecraft:paper{type:"Nori",CustomModelData:116}</code></li>
 </ol>
 
 #### Cooked Food
@@ -55,7 +59,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Chicken Soup <code>minecraft:paper{type:"ChickenSoup",CustomModelData:208}</code></li>
   <li>Chocolate Donut <code>minecraft:paper{type:"ChocolateDonut",CustomModelData:209}</code></li>
   <li>Chocolate Icecream <code>minecraft:paper{type:"ChocolateIcecream",CustomModelData:210}</code></li>
-  <li>Coffee <code>minecraft:paper{type:"Coffee",CustomModelData:211}</code></li>
+  <li>Cocoa Drink <code>minecraft:paper{type:"CocoaDrink",CustomModelData:211}</code></li>
   <li>Fish Stew <code>minecraft:paper{type:"FishStew",CustomModelData:212}</code></li>
   <li>Fried Bacon <code>minecraft:paper{type:"FriedBacon",CustomModelData:213}</code></li>
   <li>Fried Egg <code>minecraft:paper{type:"FriedEgg",CustomModelData:214}</code></li>
@@ -68,6 +72,8 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Stuffed Potato <code>minecraft:paper{type:"StuffedPotato",CustomModelData:221}</code></li>
   <li>Tomato Sauce <code>minecraft:paper{type:"TomatoSauce",CanBoil:1b,CustomModelData:222}</code></li>
   <li>Jam <code>minecraft:paper{type:"Jam",CustomModelData:223}</code></li>
+  <li>Sushi <code>minecraft:paper{type:"Sushi",CustomModelData:224}</code></li>
+   <li>Cookie <code>minecraft:paper{type:"Cookie",CustomModelData:225}</code></li>
 </ol>
 
 ### Recipes Editing
