@@ -40,7 +40,7 @@ Competetive Minecraft Minigame (Cafe Simulator)
   <li>Sugar <code>minecraft:paper{type:"Berries",CanMix:1b,CustomModelData:109}</code></li>
   <li>Berries <code>minecraft:paper{type:"Berries",CustomModelData:110}</code></li>
   <li>Tomato <code>minecraft:paper{type:"Tomato",CustomModelData:111}</code></li>
-  <li>Dough <code>minecraft:paper{type:"Dough",CustomModelData:112}</code></li>
+  <li>Dough <code>minecraft:lime_candle{type:"Dough",CustomModelData:1}</code></li>
   <li>Rice <code>minecraft:paper{type:"Rice",CustomModelData:113}</code></li>
   <li>Cooked Rice <code>minecraft:paper{type:"CookedRice",CustomModelData:118}</code></li>
   <li>Cocoa Powder <code>minecraft:paper{type:"CocoaPowder",CanMix:1b,CustomModelData:114}</code></li>
